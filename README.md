@@ -1,6 +1,9 @@
 pasos para usar la calculadora:
+
 1: instala mathjs; npm install mathjs
+
 2: crea un package.json como el mío
+
 3: Inicialo usando npm start
 
 
