@@ -1,0 +1,12 @@
+{
+  "name": "calculadora-terminal",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "calculadora-terminal.js",
+  "scripts": {
+    "start": "node ./calculadora-terminal.js"
+  },
+  "dependencies": {
+    "mathjs": "^14.8.2"
+  }
+}
