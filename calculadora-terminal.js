@@ -1,3 +1,8 @@
+import { execSync } from 'child_process'
+function instalar(paquete){try{require.resolve(paquete)} catch{
+execSync(`npm install ${paquete}`)
+}};
+instalar("mathjs")
 import readline from 'readline'
 import * as math from 'mathjs';
 
@@ -21,5 +26,6 @@ function sumar(){rl.question(`bienvenido a la calculadora de terminal,
         }
     })
   }
+
 
 sumar()
